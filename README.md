@@ -1,85 +1,51 @@
 # Planning-Under-Uncertainty-A-Decision-Theoretic-Perspective-
 Book Chapter
-📖 Overview
+# 📖 Planning Under Uncertainty  
 
-This chapter provides a comprehensive introduction to planning under uncertainty, a fundamental problem in Artificial Intelligence (AI), Robotics, and Operations Research. Unlike deterministic planning, where outcomes are predictable, planning under uncertainty deals with environments where actions can lead to multiple possible outcomes due to incomplete knowledge, noisy sensors, or stochastic dynamics.
+This repository contains notes and explanations from the book chapter **“Planning Under Uncertainty”**.  
+It explores how intelligent agents make decisions when outcomes are unpredictable due to incomplete knowledge, noisy sensors, or stochastic environments.  
 
-🗂 Contents
+---
 
-Introduction
+## 📂 Contents  
+- **Introduction** – What is planning under uncertainty & why it matters  
+- **Basic Concepts** – Deterministic vs. Non-Deterministic Planning, Sources of Uncertainty  
+- **Models**  
+  - Markov Decision Processes (MDPs)  
+  - Partially Observable MDPs (POMDPs)  
+- **Algorithms**  
+  - Value Iteration  
+  - Policy Iteration  
+  - Belief State Space Search  
+  - Monte Carlo Methods  
+- **Applications** – Robot Navigation, Inventory Management, Autonomous Vehicles  
+- **Challenges** – Scalability, Partial Observability, Real-Time Constraints  
+- **Recent Advances** – Deep RL, Model-Based RL, Probabilistic Graphical Models, Multi-Agent Planning  
 
-Definition of planning under uncertainty
+---
 
-Relevance in AI, Robotics, and Theory of Computation
+## 🚀 Key Takeaways  
+- Uncertainty is **inherent in real-world AI & robotics**.  
+- **MDPs and POMDPs** provide the mathematical foundation.  
+- Algorithms like **Value Iteration & Monte Carlo** help derive optimal policies.  
+- Applications span **autonomous systems, logistics, and decision-making AI**.  
+- Future research focuses on **scalability, human-AI collaboration, and ethics**.  
 
-Basic Concepts
+---
 
-Deterministic vs. Non-Deterministic Planning
+## 📌 Usage  
+This repository serves as a **quick reference** for students and researchers working on:  
+- Artificial Intelligence  
+- Robotics & Autonomous Systems  
+- Reinforcement Learning  
+- Operations Research  
 
-Sources of Uncertainty: Environmental, Perceptual, and Outcome
+---
 
-Models
+## 🔗 References  
+- *Artificial Intelligence: A Modern Approach* – Russell & Norvig (2009)  
+- *Reinforcement Learning: An Introduction* – Sutton & Barto (2018)  
+- *Computational Complexity* – Papadimitriou (1994)  
 
-Markov Decision Processes (MDPs): States, Actions, Transition, Rewards, Policies
+---
 
-Partially Observable MDPs (POMDPs): Belief states, partial observability
-
-Algorithms
-
-Value Iteration
-
-Policy Iteration
-
-Belief State Space Search
-
-Monte Carlo Methods
-
-Examples
-
-Robot Navigation
-
-Inventory Management
-
-Autonomous Vehicle Decision-Making
-
-Case Study
-
-Autonomous Robotics (Slamcore Aware for person detection and safety)
-
-Challenges & Limitations
-
-Scalability and complexity
-
-Partial observability and model uncertainty
-
-Real-time constraints and exploration-exploitation trade-off
-
-Recent Advances & Future Directions
-
-Deep Reinforcement Learning (DRL)
-
-Model-Based RL (MBRL)
-
-Probabilistic Graphical Models
-
-Multi-agent planning under uncertainty
-
-Risk-aware & ethical AI
-
-Conclusion
-
-Importance of probabilistic models and robust algorithms for real-world planning.
-
-Growing role of hybrid approaches and human-AI collaboration.
-
-🎯 Key Takeaways
-
-Uncertainty is inherent in real-world planning due to incomplete knowledge and noisy outcomes.
-
-MDPs and POMDPs provide the mathematical foundation.
-
-Algorithms like Value Iteration, Policy Iteration, Belief Search, and Monte Carlo address different uncertainty scenarios.
-
-Applications span robotics, inventory systems, and autonomous vehicles.
-
-Future work emphasizes scalability, real-time decision-making, human-AI collaboration, and ethical considerations.
